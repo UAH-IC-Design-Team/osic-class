@@ -15,7 +15,7 @@ For our purposes we only need to be concered with two areas of DevOps: Version C
 # Bash
 [Bash Manual](https://www.gnu.org/software/bash/manual/bash.html)
 
-Bash (Bourne Again SHell) is a shell derived from Sh, Ksh and Csh shells. First released in [1989](https://en.wikipedia.org/wiki/Bash_(Unix_shell) by Brian Fox.
+Bash (Bourne Again SHell) is a shell derived from Sh, Ksh and Csh shells. First released in [1989](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) by Brian Fox.
 The basic idea of a shell is to expand and translate human readable commands into machine code for the compter to execute. Bash is also a scripting language that is turing complete. 
 
 OSX is zsh and Ubuntu is bash now. No difference for our purposes.
