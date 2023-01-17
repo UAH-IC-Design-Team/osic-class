@@ -62,6 +62,10 @@ SSH is discussed in detail in HW01.
 # Docker
 We have created a [Docker cheatsheet](https://github.com/UAH-IC-Design-Team/documentation/wiki/Docker-Cheat-Sheet) with all of the most common commands and workflows needed for this class.
 
+Docker has excelent documentation that can be found [here](https://docs.docker.com/).
+
+[Docker Hub](https://hub.docker.com/) is the default docker image repository containing many official docker base images such as Ubuntu or Alpine Linux.
+
 ### Basic Archetecture
 
 
@@ -97,6 +101,8 @@ ENTRYPOINT ["some", "command"]
 
 ```
 
+.dockerignore
+
 
 ### Docker image 
 ```
@@ -112,5 +118,7 @@ docker image tag
 
 ```
 
-
+### Docker compose
+Rather than writing long bash commands, docker compose uses a yml file to execute containers.
+[docker compose docs](https://docs.docker.com/compose/features-uses/)
 
