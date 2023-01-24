@@ -33,8 +33,11 @@ apk add
 
 # Magic
 [Official Magic Documentation](http://opencircuitdesign.com/magic/index.html)
+
 [Extra Notes](https://github.com/UAH-IC-Design-Team/documentation/wiki/Magic-and-Netgen)
+
 [Dr. Pretl's Cheat Sheet](https://github.com/iic-jku/iic-osic/blob/main/magic-cheatsheet/magic_cheatsheet.pdf)
+
 [Video from Tim Edwards on Magic](https://us06web.zoom.us/rec/play/EFHC4L8Xi1lmg6nev1HHwrlEfF-yKZA0PvR9i9eObBRprVjZHw3-ylQ2-97cNWjQbKdkZXgLQBjKzE1h.Wa-s9bzRRZwRaVrz?startTime=1658500417000&_x_zm_rtaid=-kxcJqW7SoyxOjWqxfwREg.1658935344346.c723fee525ef47c93a4a9ba2497bcbdc&_x_zm_rhtaid=669)
 
 The Magic tutorials from the official documentation are some of the best resources.
@@ -93,8 +96,9 @@ The `help` command is extremely helpful.
 ### LVS Extraction
 ```
 extract 
-# or
-extract -noall
+# or extract -noall
+
 ext2spice lvs
+
 ext2spice
 ```
