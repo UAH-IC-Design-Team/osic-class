@@ -102,3 +102,14 @@ ext2spice lvs
 
 ext2spice
 ```
+
+### Higherarchy
+Magic has cell higherarchy.
+
+- Show or hide cell higherarchy: `x`, `shift-X`. 
+- Use `s` to select cells 
+- Use `:edit` to chose which cells to edit. 
+
+
+
+
