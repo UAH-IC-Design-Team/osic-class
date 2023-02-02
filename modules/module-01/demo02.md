@@ -122,3 +122,9 @@ docker image tag
 Rather than writing long bash commands, docker compose uses a yml file to execute containers.
 [docker compose docs](https://docs.docker.com/compose/features-uses/)
 
+# Makefile
+- Targets
+- Target dependencies
+
+
+# Clarification on where to use SSH and git and where to launch the tools...
