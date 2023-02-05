@@ -18,7 +18,13 @@ write inverter_test.raw
 
 ```
 # Layout
+## Tap and Diff
+Sky130 is a tap and diff process. Tap and diff layers are active reagions meant to form heavily doped implants. Tap is doped the same charge as the subtraight it is over and diff is doped the oposite charge as the subtraight it is over. For example, if tap is over P-Subtraight, it is P-Doped or if diff is over an nwell, it is also P-Doped. 
+
+Unfortinately, there is another common name for tap layers: substratediff layers. They are equivialient (look in Magic's layer list), but the naming is extra confusing.  
 
 # LVS
+
+
 
 
