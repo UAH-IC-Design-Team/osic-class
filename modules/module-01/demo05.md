@@ -1,9 +1,9 @@
 # demo05 - getting started with digital
 Up until now we have been focusing on analog design. Now we are going to take a look at digital design. This is a MASSIVE topic and we will only cuver the most simple basics to enable you to get started on your own; please see the resources section.
 The large over view is as follows:
-- *icarus verilog* is a verilog simulation and systhesis tool. We will use it to execute our verilog. 
-- *gtkwave* is used to view the output waveforms from our simulation.
-- *cocotb* is a python library used for design verification. 
+- *icarus verilog* is a verilog simulation and systhesis tool. We will use it to compile our verilog into a `*.vvp` file to then be simulated.
+- *cocotb* is a python library used for design simulation and verification. We will input the `*.vvp` file and output a waveform `*.vvp` file.
+- *gtkwave* is used to view the output waveforms from the `*.vvp` file.
 - *OpenLane* is the synthsis, implementation, placement and routing. OpenLane is the tool that takes our verilog and turns it into GDS.
 
 ## Design
