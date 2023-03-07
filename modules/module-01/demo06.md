@@ -1,7 +1,7 @@
 # demo06 - Ngspice Scripting
 
 ## Variables, Vectors and Plots
-### Variables (Ngspice manual 17.5.66)
+### Variables (Ngspice manual 17.5.66, 17.8.1)
 ```
 set [var]
 set [var = value]
@@ -10,12 +10,12 @@ set [var = value]
 echo $var
 
 ```
-### Plots
+### Plots 
 A plot is a collection of vectors. The two commands to create and remove plots are setplot (17.5.69) and destroy (17.5.19). 
 
 When you run a simulation (such as an ac or tran) it automatically creates a plot that the saved vectors are stored in. 
 
-### Vectors
+### Vectors (17.8.2-3)
 Vectors are complicated. The manual says, "There is no straightforward way to initialize a new vector." Read on let (17.5.39), unlet (17.5.93) and compose (17.5.13) for the three differnt commands for crud operations on vectors. The big thing to note is that all vector commands operate on the vectors of the current plot. You cannot access vectors stored in a plot different from the current plot.
 
 ```
